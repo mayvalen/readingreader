@@ -1,39 +1,13 @@
-/* CSS files add styling rules to your content */
-@font-face {
-  font-family: 'Monument Extended';
-  src: url('MonumentExtended-Regular.woff2') format('woff2'),
-      url('MonumentExtended-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
 
-  @font-face {
-    font-family: 'Migra';
-    src: url('Migra-Extralight.woff2') format('woff2'),
-        url('Migra-Extralight.woff') format('woff');
-    font-weight: 200;
-    font-style: normal;
-    font-display: swap;
-  }
-  @font-face {
-    font-family: 'Migra';
-    src: url('MigraItalic-ExtralightItalic.woff2') format('woff2'),
-        url('MigraItalic-ExtralightItalic.woff') format('woff');
-    font-weight: 200;
-    font-style: italic;
-    font-display: swap;
-  }
-  
   .crosshair {cursor: crosshair;}
   
   body {
-    font-family: 'Monument Extended';
     margin-left: 2em;
     margin-top: 1em;
     color: rgb(0, 0, 0);
     background-color: rgb(241, 241, 241);
     font-size: 1.4em;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   /*IMAGES*/
@@ -41,8 +15,8 @@
   .image {
     margin: auto;
     position: absolute;
-    padding-left: 430px;
-    padding-top: 80px;
+    padding-left: 465px;
+    padding-top: 75px;
   }
   
   .image1 {
@@ -121,7 +95,7 @@
   }
   
   .box {
-    min-width: 450px;
+    min-width: 500px;
     
   
   }
@@ -129,16 +103,19 @@
   .box1 {
     padding-bottom: 2em;
     color: blue;
+    font-size: .7em;
   }
   
   .box2 {
     padding-bottom: 2em;
     color: blue;
+    font-size: .7em;
   }
   
   .box3 {
     padding-bottom: 2em;
     color: blue;
+    font-size: .7em;
   }
   
   .box4 {
@@ -146,16 +123,12 @@
   }
   
   .box5 {
-    font-family: 'Migra';
-    font-style: italic;
-    font-size: 1.3em;
+
     padding-bottom: .8em;
   }
   
   .box6 {
-    font-family: 'Migra';
-    font-style: italic;
-    font-size: 1.3em;
+
     padding-bottom: .8em;
   }
   
@@ -165,16 +138,12 @@
   
   .box8 {
     padding-bottom: .8em;
-    font-family: 'Migra';
-    font-style: italic;
-    font-size: 1.3em;
+
   }
   
    .box9 {
     padding-bottom: .8em;
-    font-family: 'Migra';
-    font-style: italic;
-    font-size: 1.3em;
+
    }
   
    .box10 {
@@ -183,16 +152,12 @@
   
   .box11 {
     padding-bottom: .8em;
-    font-family: 'Migra';
-    font-style: italic;
-    font-size: 1.3em;
+
   }
   
    .box12 {
     padding-bottom: .8em;
-    font-family: 'Migra';
-    font-style: italic;
-    font-size: 1.3em;
+
    }
   
    .box13 {
@@ -201,16 +166,12 @@
   
   .box14 {
     padding-bottom: .8em;
-    font-family: 'Migra';
-    font-style: italic;
-    font-size: 1.3em;
+
   }
   
    .box15 {
     padding-bottom: .8em;
-    font-family: 'Migra';
-    font-style: italic;
-    font-size: 1.3em;
+
    }
   
    .box16 {
@@ -219,16 +180,12 @@
   
   .box17 {
     padding-bottom: .8em;
-    font-family: 'Migra';
-    font-style: italic;
-    font-size: 1.3em;
+
   }
   
    .box18 {
     padding-bottom: .8em;
-    font-family: 'Migra';
-    font-style: italic;
-    font-size: 1.3em;
+
    }
   
    .box19 {
@@ -237,16 +194,12 @@
   
   .box20 {
     padding-bottom: .8em;
-    font-family: 'Migra';
-    font-style: italic;
-    font-size: 1.3em;
+
   }
   
    .box21 {
     padding-bottom: .8em;
-    font-family: 'Migra';
-    font-style: italic;
-    font-size: 1.3em;
+
    }
   
    .box22 {
@@ -255,16 +208,12 @@
   
   .box23 {
     padding-bottom: .8em;
-    font-family: 'Migra';
-    font-style: italic;
-    font-size: 1.3em;
+
   }
   
    .box24 {
     padding-bottom: .8em;
-    font-family: 'Migra';
-    font-style: italic;
-    font-size: 1.3em;
+
    }
 
    .box25 {
@@ -273,16 +222,12 @@
   
   .box26 {
     padding-bottom: .8em;
-    font-family: 'Migra';
-    font-style: italic;
-    font-size: 1.3em;
+
   }
   
    .box27 {
     padding-bottom: .8em;
-    font-family: 'Migra';
-    font-style: italic;
-    font-size: 1.3em;
+ 
    }
 
    }
@@ -303,20 +248,23 @@
   }
   
   .box {
-    min-width: 450px;
-    font-size: 1em;
+    min-width: 465px;
+
   }
   
   .box1 {
     padding-bottom: 2em;
+    font-size: .7em;
   }
   
   .box2 {
     padding-bottom: 2em;
+    font-size: .7em;
   }
   
   .box3 {
     padding-bottom: 2em;
+    font-size: .7em;
   }
   
   .box4 {
@@ -324,17 +272,13 @@
   }
   
   .box5 {
-    font-family: 'Migra';
-    font-style: italic;
-    font-size: 1.3em;
     padding-bottom: .8em;
+
   }
   
   .box6 {
-    font-family: 'Migra';
-    font-style: italic;
-    font-size: 1.3em;
     padding-bottom: .8em;
+
   }
   
   .box7 {
@@ -343,16 +287,12 @@
   
   .box8 {
     padding-bottom: .8em;
-    font-family: 'Migra';
-    font-style: italic;
-    font-size: 1.3em;
+ 
   }
   
    .box9 {
     padding-bottom: .8em;
-    font-family: 'Migra';
-    font-style: italic;
-    font-size: 1.3em;
+ 
    }
   
    .box10 {
@@ -361,16 +301,12 @@
   
   .box11 {
     padding-bottom: .8em;
-    font-family: 'Migra';
-    font-style: italic;
-    font-size: 1.3em;
+  
   }
   
    .box12 {
     padding-bottom: .8em;
-    font-family: 'Migra';
-    font-style: italic;
-    font-size: 1.3em;
+  
    }
   
    .box13 {
@@ -379,16 +315,12 @@
   
   .box14 {
     padding-bottom: .8em;
-    font-family: 'Migra';
-    font-style: italic;
-    font-size: 1.3em;
+  
   }
   
    .box15 {
     padding-bottom: .8em;
-    font-family: 'Migra';
-    font-style: italic;
-    font-size: 1.3em;
+   
    }
   
    .box16 {
@@ -397,16 +329,12 @@
   
   .box17 {
     padding-bottom: .8em;
-    font-family: 'Migra';
-    font-style: italic;
-    font-size: 1.3em;
+ 
   }
   
    .box18 {
     padding-bottom: .8em;
-    font-family: 'Migra';
-    font-style: italic;
-    font-size: 1.3em;
+  
    }
   
    .box19 {
@@ -415,16 +343,12 @@
   
   .box20 {
     padding-bottom: .8em;
-    font-family: 'Migra';
-    font-style: italic;
-    font-size: 1.3em;
+
   }
   
    .box21 {
     padding-bottom: .8em;
-    font-family: 'Migra';
-    font-style: italic;
-    font-size: 1.3em;
+ 
    }
   
    .box22 {
@@ -433,16 +357,12 @@
   
   .box23 {
     padding-bottom: .8em;
-    font-family: 'Migra';
-    font-style: italic;
-    font-size: 1.3em;
+
   }
   
    .box24 {
     padding-bottom: .8em;
-    font-family: 'Migra';
-    font-style: italic;
-    font-size: 1.3em;
+  
    }
   
    .box25 {
@@ -451,16 +371,29 @@
   
   .box26 {
     padding-bottom: .8em;
-    font-family: 'Migra';
-    font-style: italic;
-    font-size: 1.3em;
+  
+    
   }
   
    .box27 {
     padding-bottom: .8em;
-    font-family: 'Migra';
-    font-style: italic;
-    font-size: 1.3em;
+   
+   }
+
+   .box28 {
+    padding-top: 8em;
+    font-size: .7em;
+
+  }
+  
+  .box29 {
+    padding-top: 8em;
+    font-size: .7em;
+  }
+  
+   .box30 {
+    padding-top: 8em;
+    font-size: .7em;
    }
 
    }
