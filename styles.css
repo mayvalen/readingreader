@@ -1,4 +1,16 @@
+@font-face {
+  font-family: 'Neue Montreal';
+  src: url('NeueMontreal-Light.woff2') format('woff2'),
+      url('NeueMontreal-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
 
+
+
+
+  
   .crosshair {cursor: crosshair;}
   
   body {
@@ -7,7 +19,7 @@
     color: rgb(0, 0, 0);
     background-color: rgb(241, 241, 241);
     font-size: 1.4em;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Neue Montreal';
   }
   
   /*IMAGES*/
@@ -15,8 +27,9 @@
   .image {
     margin: auto;
     position: absolute;
-    padding-left: 465px;
-    padding-top: 75px;
+    margin-left: 465px;
+    padding-top: 51px;
+    z-index: 2;
   }
   
   .image1 {
@@ -69,13 +82,13 @@
   }
   
   a:hover {
-    color: #ff0000;
+    color: #09ff00;
     background-color: transparent;
     text-decoration: none;
   }
   
   a:active {
-    color: #00ff00;
+    color: blue;
     background-color: transparent;
     text-decoration: none;
   }
@@ -96,8 +109,7 @@
   
   .box {
     min-width: 500px;
-    
-  
+
   }
   
   .box1 {
@@ -118,117 +130,6 @@
     font-size: .7em;
   }
   
-  .box4 {
-    padding-bottom: .8em;
-  }
-  
-  .box5 {
-
-    padding-bottom: .8em;
-  }
-  
-  .box6 {
-
-    padding-bottom: .8em;
-  }
-  
-  .box7 {
-    padding-bottom: .8em;
-  }
-  
-  .box8 {
-    padding-bottom: .8em;
-
-  }
-  
-   .box9 {
-    padding-bottom: .8em;
-
-   }
-  
-   .box10 {
-    padding-bottom: .8em;
-  }
-  
-  .box11 {
-    padding-bottom: .8em;
-
-  }
-  
-   .box12 {
-    padding-bottom: .8em;
-
-   }
-  
-   .box13 {
-    padding-bottom: .8em;
-  }
-  
-  .box14 {
-    padding-bottom: .8em;
-
-  }
-  
-   .box15 {
-    padding-bottom: .8em;
-
-   }
-  
-   .box16 {
-    padding-bottom: .8em;
-  }
-  
-  .box17 {
-    padding-bottom: .8em;
-
-  }
-  
-   .box18 {
-    padding-bottom: .8em;
-
-   }
-  
-   .box19 {
-    padding-bottom: .8em;
-  }
-  
-  .box20 {
-    padding-bottom: .8em;
-
-  }
-  
-   .box21 {
-    padding-bottom: .8em;
-
-   }
-  
-   .box22 {
-    padding-bottom: .8em;
-  }
-  
-  .box23 {
-    padding-bottom: .8em;
-
-  }
-  
-   .box24 {
-    padding-bottom: .8em;
-
-   }
-
-   .box25 {
-    padding-bottom: .8em;
-  }
-  
-  .box26 {
-    padding-bottom: .8em;
-
-  }
-  
-   .box27 {
-    padding-bottom: .8em;
- 
-   }
 
    }
   
@@ -243,12 +144,13 @@
     flex-wrap: wrap;
     justify-content: left;
     margin: auto;
-    padding-top: 1em;
     position: absolute;
+    z-index: 1;
   }
   
   .box {
     min-width: 465px;
+    padding-bottom: 2rem;
 
   }
   
@@ -266,134 +168,25 @@
     padding-bottom: 2em;
     font-size: .7em;
   }
-  
-  .box4 {
-    padding-bottom: .8em;
-  }
-  
-  .box5 {
-    padding-bottom: .8em;
 
-  }
-  
-  .box6 {
-    padding-bottom: .8em;
-
-  }
-  
-  .box7 {
-    padding-bottom: .8em;
-  }
-  
-  .box8 {
-    padding-bottom: .8em;
- 
-  }
-  
-   .box9 {
-    padding-bottom: .8em;
- 
-   }
-  
-   .box10 {
-    padding-bottom: .8em;
-  }
-  
-  .box11 {
-    padding-bottom: .8em;
-  
-  }
-  
-   .box12 {
-    padding-bottom: .8em;
-  
-   }
-  
-   .box13 {
-    padding-bottom: .8em;
-  }
-  
-  .box14 {
-    padding-bottom: .8em;
-  
-  }
-  
-   .box15 {
-    padding-bottom: .8em;
-   
-   }
-  
-   .box16 {
-    padding-bottom: .8em;
-  }
-  
-  .box17 {
-    padding-bottom: .8em;
- 
-  }
-  
-   .box18 {
-    padding-bottom: .8em;
-  
-   }
-  
-   .box19 {
-    padding-bottom: .8em;
-  }
-  
-  .box20 {
-    padding-bottom: .8em;
-
-  }
-  
-   .box21 {
-    padding-bottom: .8em;
- 
-   }
-  
-   .box22 {
-    padding-bottom: .8em;
-  }
-  
-  .box23 {
-    padding-bottom: .8em;
-
-  }
-  
-   .box24 {
-    padding-bottom: .8em;
-  
-   }
-  
-   .box25 {
-    padding-bottom: .8em;
-  }
-  
-  .box26 {
-    padding-bottom: .8em;
-  
-    
-  }
-  
-   .box27 {
-    padding-bottom: .8em;
-   
-   }
-
-   .box28 {
+  .box28 {
     padding-top: 8em;
     font-size: .7em;
-
+    color: blue;
   }
   
   .box29 {
     padding-top: 8em;
     font-size: .7em;
+    color: blue;
   }
   
-   .box30 {
+  .box30 {
     padding-top: 8em;
     font-size: .7em;
-   }
+    color: blue;
+  }
+  
+
 
    }
