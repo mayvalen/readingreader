@@ -22,46 +22,6 @@
       font-family: 'Neue Montreal';
     }
     
-    /*IMAGES*/
-    
-    .image {
-      margin: auto;
-      position: absolute;
-      margin-left: 465px;
-      padding-top: 51px;
-      z-index: 2;
-    }
-    
-    .image1 {
-      display: none;
-    }
-    .image2 {
-      display: none;
-    }
-    .image3 {
-      display: none;
-    }
-    .image4 {
-      display: none;
-    }
-    .image5 {
-      display: none;
-    }
-    .image6 {
-      display: none;
-    }
-    .image7 {
-      display: none;
-    }
-    .image8 {
-      display: none;
-    }
-    .image9 {
-      display: none;
-    }
-    
-    
-    
     
     .center {
       text-align: center;
@@ -94,10 +54,11 @@
     }
     
     
-    
+    /* mobile */
     
      @media only screen and (min-width: 320px) {
     /*FLEXBOX*/
+
     
     .container {
       display: flex;
@@ -109,6 +70,7 @@
     
     .box {
       min-width: 500px;
+      padding-bottom: .5rem;
   
     }
     
@@ -132,9 +94,18 @@
 
     .box4 {
         font-size: .7em;
+        padding-bottom: 1rem;
     
     }
-    
+  
+.box5 {
+    max-width: 50px;
+}
+
+#image {
+    max-width: 280px;
+}
+  
   
      }
     
@@ -143,6 +114,8 @@
      @media only screen and (min-width: 900px){
     
     /*FLEXBOX*/
+
+
     
     .container {
       display: flex;
@@ -155,7 +128,7 @@
     
     .box {
       min-width: 465px;
-      padding-bottom: 3rem;
+      padding-bottom: 2rem;
   
     }
     
@@ -173,6 +146,13 @@
       padding-bottom: 2em;
       font-size: .7em;
     }
+
+    .box4 {
+        font-size: .7em;
+    
+    }
+
+
   
     .box28 {
       padding-top: 8em;
@@ -191,7 +171,23 @@
       font-size: .7em;
       color: blue;
     }
-    
   
+/*       .image {
+      margin: auto;
+      position: absolute;
+      margin-left: 465px;
+      padding-top: 51px;
+      z-index: 2;
+    } */
+    
+
+    #image {
+        max-width: 430px;
+    }
   
      }
+
+
+
+
+
