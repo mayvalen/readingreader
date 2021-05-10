@@ -22,46 +22,6 @@
     font-family: 'Neue Montreal';
   }
   
-  /*IMAGES*/
-  
-  .image {
-    margin: auto;
-    position: absolute;
-    margin-left: 465px;
-    padding-top: 51px;
-    z-index: 2;
-  }
-  
-  .image1 {
-    display: none;
-  }
-  .image2 {
-    display: none;
-  }
-  .image3 {
-    display: none;
-  }
-  .image4 {
-    display: none;
-  }
-  .image5 {
-    display: none;
-  }
-  .image6 {
-    display: none;
-  }
-  .image7 {
-    display: none;
-  }
-  .image8 {
-    display: none;
-  }
-  .image9 {
-    display: none;
-  }
-  
-  
-  
   
   .center {
     text-align: center;
@@ -94,7 +54,7 @@
   }
   
   
-  
+  /* mobile */
   
    @media only screen and (min-width: 320px) {
   /*FLEXBOX*/
@@ -129,7 +89,35 @@
     color: blue;
     font-size: .7em;
   }
-  
+
+  .image1 {
+    display: none;
+  }
+  .image2 {
+    display: none;
+  }
+  .image3 {
+    display: none;
+  }
+  .image4 {
+    display: none;
+  }
+  .image5 {
+    display: none;
+  }
+  .image6 {
+    display: none;
+  }
+  .image7 {
+    display: none;
+  }
+  .image8 {
+    display: none;
+  }
+  .image9 {
+    display: none;
+  }
+
 
    }
   
@@ -185,6 +173,51 @@
     padding-top: 8em;
     font-size: .7em;
     color: blue;
+  }
+
+    .image {
+    margin: auto;
+    position: absolute;
+    margin-left: 465px;
+    padding-top: 51px;
+    z-index: 2;
+  }
+  
+  .image1 {
+    display: block;
+    opacity: 0;
+  }
+  .image2 {
+    display: block;
+    opacity: 0;
+  }
+  .image3 {
+    display: block;
+    opacity: 0;
+  }
+  .image4 {
+    display: block;
+    opacity: 0;
+  }
+  .image5 {
+    display: block;
+    opacity: 0;
+  }
+  .image6 {
+    display: block;
+    opacity: 0;
+  }
+  .image7 {
+    display: block;
+    opacity: 0;
+  }
+  .image8 {
+    display: block;
+    opacity: 0;
+  }
+  .image9 {
+    display: block;
+    opacity: 0;
   }
   
 

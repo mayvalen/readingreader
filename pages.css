@@ -1,0 +1,197 @@
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url('NeueMontreal-Light.woff2') format('woff2'),
+        url('NeueMontreal-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  
+  
+  
+    
+    .crosshair {cursor: crosshair;}
+    
+    body {
+      margin-left: 2em;
+      margin-top: 1em;
+      color: rgb(0, 0, 0);
+      background-color: rgb(241, 241, 241);
+      font-size: 1.4em;
+      font-family: 'Neue Montreal';
+    }
+    
+    /*IMAGES*/
+    
+    .image {
+      margin: auto;
+      position: absolute;
+      margin-left: 465px;
+      padding-top: 51px;
+      z-index: 2;
+    }
+    
+    .image1 {
+      display: none;
+    }
+    .image2 {
+      display: none;
+    }
+    .image3 {
+      display: none;
+    }
+    .image4 {
+      display: none;
+    }
+    .image5 {
+      display: none;
+    }
+    .image6 {
+      display: none;
+    }
+    .image7 {
+      display: none;
+    }
+    .image8 {
+      display: none;
+    }
+    .image9 {
+      display: none;
+    }
+    
+    
+    
+    
+    .center {
+      text-align: center;
+    }
+    
+    /*LINKS*/
+     a:link {
+      color: black;
+      background-color: transparent;
+      text-decoration: none;
+      cursor: cell;
+    }
+    
+    a:visited {
+      color: black;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      color: #09ff00;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    
+    a:active {
+      color: blue;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    
+    
+    
+    
+     @media only screen and (min-width: 320px) {
+    /*FLEXBOX*/
+    
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: left;
+      margin: auto;
+      position: absolute;
+    }
+    
+    .box {
+      min-width: 500px;
+  
+    }
+    
+    .box1 {
+      padding-bottom: 2em;
+      color: blue;
+      font-size: .7em;
+    }
+    
+    .box2 {
+      padding-bottom: 2em;
+      color: blue;
+      font-size: .7em;
+    }
+    
+    .box3 {
+      padding-bottom: 2em;
+      color: blue;
+      font-size: .7em;
+    }
+
+    .box4 {
+        font-size: .7em;
+    
+    }
+    
+  
+     }
+    
+     /*LAPTOP*/
+    
+     @media only screen and (min-width: 900px){
+    
+    /*FLEXBOX*/
+    
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: left;
+      margin: auto;
+      position: absolute;
+      z-index: 1;
+    }
+    
+    .box {
+      min-width: 465px;
+      padding-bottom: 3rem;
+  
+    }
+    
+    .box1 {
+      padding-bottom: 2em;
+      font-size: .7em;
+    }
+    
+    .box2 {
+      padding-bottom: 2em;
+      font-size: .7em;
+    }
+    
+    .box3 {
+      padding-bottom: 2em;
+      font-size: .7em;
+    }
+  
+    .box28 {
+      padding-top: 8em;
+      font-size: .7em;
+      color: blue;
+    }
+    
+    .box29 {
+      padding-top: 8em;
+      font-size: .7em;
+      color: blue;
+    }
+    
+    .box30 {
+      padding-top: 8em;
+      font-size: .7em;
+      color: blue;
+    }
+    
+  
+  
+     }
