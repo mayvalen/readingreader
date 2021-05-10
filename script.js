@@ -1,3 +1,5 @@
+
+//edit script.js
 console.log("hello");
 
 //when mouse hovers over ego, show image 
