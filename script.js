@@ -90,8 +90,11 @@ var imageEight = document.querySelector(".image8");
 
 culture.addEventListener("mouseover", function(){
     imageEight.style.opacity = "1";
+    
 })
 
 culture.addEventListener("mouseleave", function(){
     imageEight.style.opacity = "0";  
   })
+
+  
